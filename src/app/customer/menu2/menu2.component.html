@@ -1,0 +1,21 @@
+<p>
+    menu2 works!
+</p>
+<table style="width:100%;" class="table-striped">
+        <tbody>
+            <tr *ngFor="let user of users" >
+                <td>
+                    <span>{{user.id}}</span>
+                </td>
+                <td>
+                        <span>{{user.email}}</span>
+                </td>
+                <td>
+                        <span>{{user.first_name}}</span>
+                </td>
+                <td>
+                        <span>{{user.last_name}}</span>
+                 </td>               
+            </tr>    
+        </tbody>
+    </table>
